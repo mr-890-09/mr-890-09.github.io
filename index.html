@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kolmas veebileht</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        window.onload = function() {
+         let algne = document.getElementById("clicks");
+        algne.innerHTML = localStorage.getItem("test");   
+        }
+        alert("tere, maailm!");
+        console.log("tere, kasutaja");
+       function kaunter(){
+          let algne = document.getElementById("clicks");
+          let tulemus = Number(algne.innerHTML) + 1;  
+          algne.innerHTML = tulemus;
+
+          localStorage.setItem("test", tulemus);
+        }
+    
+    </script>
+</head>
+<body>
+    <div class="nav">
+    <a href="index.html">avaleht</a>
+    <a href="kontakt.html">kontakt</a>
+    <a href="veebileht.html">veebileht</a>
+  </div>
+    <h1>Tere</h1>
+  
+    <p>head päeva sulle!!!!1</p>
+
+    <h2>Klikke kokku: <span id="clicks">0</span> </h2>
+
+<img src="https://media0.giphy.com/media/v1.Y2lkPTZjMDliOTUyMnRsNm53dncyNHNncTBrZmNza3dmOXByNzJoaXR0ZnlxODJyOHVjdCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/KztT2c4u8mYYUiMKdJ/200w.gif" alt="kassid" width="100px" height="78px" onclick="kaunter()">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br> 
+<img src="https://frutigeraeroarchive.org/images/wallpapers/vocaloid/vocaloid_15.jpg" alt="vocaloid">
+    <script src="script.js"></script>
+</body>
+</html>
