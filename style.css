@@ -3,11 +3,13 @@ h1{
     background-color: aliceblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font: italic;
+     text-align: center;
 }
 p{
     color: brown;
     background-color: aliceblue;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     text-align: center;
 }
 body{
     margin: 0 auto;
@@ -16,7 +18,9 @@ body{
 }
 h2{
 background-color: aliceblue;
+     text-align: center;
 }
 h3{
 color: transparent;   
+     text-align: center;
 }
